@@ -9,13 +9,14 @@ import java.io.IOException;
 
 /**
  * Clase donde se ejecuta la aplicación principal
+ *
+ * @author alesandroquirosgobbato
  */
 public class CalculadoraApplication extends Application {
     /**
-     * Función donde se carga y se muestra la ventana de la aplicación
+     * {@inheritDoc}
      *
-     * @param stage
-     * @throws IOException
+     * Función donde se carga y se muestra la ventana de la aplicación
      */
     @Override
     public void start(Stage stage) throws IOException {

@@ -10,6 +10,8 @@ import model.Operaciones;
 
 /**
  * Clase que controla la ventana
+ *
+ * @author alesandroquirosgobbato
  */
 public class CalculadoraController {
     @FXML
@@ -32,7 +34,7 @@ public class CalculadoraController {
     /**
      * Función que se ejecuta al pulsar el botón calcular
      *
-     * @param event
+     * @param event a {@link javafx.event.ActionEvent} object
      */
     @FXML
     public void calcular(ActionEvent event) {

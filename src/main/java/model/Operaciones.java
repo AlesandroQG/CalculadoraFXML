@@ -2,6 +2,8 @@ package model;
 
 /**
  * Clase de operaciones
+ *
+ * @author alesandroquirosgobbato
  */
 public class Operaciones {
     private double a;
