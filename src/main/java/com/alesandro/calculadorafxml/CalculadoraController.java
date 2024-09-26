@@ -9,9 +9,9 @@ import javafx.scene.control.ToggleGroup;
 import model.Operaciones;
 
 /**
- * Clase que
+ * Clase que controla la ventana
  */
-public class HelloController {
+public class CalculadoraController {
     @FXML
     private RadioButton dividir;
     @FXML
@@ -30,7 +30,7 @@ public class HelloController {
     private TextField txtResultado;
 
     /**
-     * Función que se ejecuta
+     * Función que se ejecuta al pulsar el botón calcular
      *
      * @param event
      */

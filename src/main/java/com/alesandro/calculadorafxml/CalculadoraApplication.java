@@ -10,16 +10,27 @@ import java.io.IOException;
 /**
  * Clase donde se ejecuta la aplicación principal
  */
-public class HelloApplication extends Application {
+public class CalculadoraApplication extends Application {
+    /**
+     * Función donde se carga y se muestra la ventana de la aplicación
+     *
+     * @param stage
+     * @throws IOException
+     */
     @Override
     public void start(Stage stage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("fxml/Calculadora.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(CalculadoraApplication.class.getResource("fxml/Calculadora.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 400, 400);
         stage.setTitle("Calculadora");
         stage.setScene(scene);
         stage.show();
     }
 
+    /**
+     * Función main donde se lanza la aplicación
+     *
+     * @param args parámetros por consola
+     */
     public static void main(String[] args) {
         Application.launch();
     }

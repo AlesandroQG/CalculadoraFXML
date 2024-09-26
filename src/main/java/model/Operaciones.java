@@ -55,7 +55,7 @@ public class Operaciones {
     }
 
     /**
-     * Suma los operadores a y b
+     * Suma los operadores 1 y 2
      *
      * @return resultado de la suma
      */
@@ -63,14 +63,29 @@ public class Operaciones {
         return a + b;
     }
 
+    /**
+     * Resta los operadores 1 y 2
+     *
+     * @return resultado de la resta
+     */
     public double restar() {
         return a - b;
     }
 
+    /**
+     * Multiplica los operadores 1 y 2
+     *
+     * @return resultado de la multiplicación
+     */
     public double multiplicar() {
         return a * b;
     }
 
+    /**
+     * Divide los operadores 1 y 2
+     *
+     * @return resultado de la división
+     */
     public double dividir() {
         return (double) a / b;
     }
