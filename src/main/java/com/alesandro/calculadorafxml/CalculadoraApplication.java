@@ -18,6 +18,8 @@ public class CalculadoraApplication extends Application {
      * {@inheritDoc}
      *
      * Función donde se carga y se muestra la ventana de la aplicación
+     *
+     * @param stage
      */
     @Override
     public void start(Stage stage) throws IOException {
