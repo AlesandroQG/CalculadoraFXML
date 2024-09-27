@@ -55,6 +55,7 @@ public class CalculadoraController {
                     alert.setTitle("Error");
                     alert.setContentText("El operando 2 no puede ser 0");
                     alert.showAndWait();
+                    txtOperador2.setText("");
                 } else {
                     this.txtResultado.setText(operaciones.dividir() + "");
                 }
