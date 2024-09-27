@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="973f44ef-58c6-4dc4-b130-ae82de502389" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alesandro/calculadorafxml/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alesandro/calculadorafxml/CalculadoraApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alesandro/calculadorafxml/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alesandro/calculadorafxml/CalculadoraController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Operaciones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Operaciones.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/Calculadora.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/Calculadora.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +42,9 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Application.CalculadoraApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.CalculadoraFXML [org.apache.maven.plugins:maven-javadoc-plugin:3.10.0:fix].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.CalculadoraFXML [org.apache.maven.plugins:maven-javadoc-plugin:3.10.0:javadoc].executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
